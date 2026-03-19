@@ -1,1 +1,182 @@
+## Skills Portfolio
 
+My skills are grouped below by **professional experience**, **certification-aligned learning**, **hands-on offensive security labs**, and **web application security labs** to reflect practical application, 
+structured study, and hands-on learning.
+
+---
+
+### Professional Experience
+- Software Testing
+- Software Testing Life Cycle (STLC)
+- Quality Assurance
+- Test Case Design
+- Technical Documentation
+- Analytical Thinking
+
+---
+
+### Certification-Aligned Skills
+
+#### CompTIA A+ ce
+- Technical Support
+- Troubleshooting
+- Software Troubleshooting
+- Computer Hardware Troubleshooting
+- IT Hardware Support
+- Operating Systems
+- Ticket Handling
+- Problem Solving
+
+#### CompTIA Network+ ce
+- Networking
+- Computer Networking
+- Network Security
+- Network Troubleshooting
+- IP Addressing
+- Subnetting
+- Domain Name System (DNS)
+- Ports and Protocols
+- OSI Model
+- Internet Protocol Suite (TCP/IP)
+
+#### Cyber Security 101
+- Cybersecurity Fundamentals
+- Information Security
+- Security Awareness
+- Identity and Access Basics
+- Authentication & Authorization
+
+#### SOC Level 1
+- Security Monitoring
+- Log Analysis
+- Alert Triage
+- Incident Detection
+- Incident Response Fundamentals
+- SIEM Fundamentals
+
+#### Web Fundamentals
+- Web Technologies
+- Web Application Basics
+- Web Security Fundamentals
+- OWASP Awareness
+- Reconnaissance
+- HTTP / HTTPS Protocols
+- JavaScript Fundamentals
+- Web Testing
+
+#### Jr Penetration Tester
+- Penetration Testing Methodology
+- Active Reconnaissance
+- Web Application Testing
+- Vulnerability Identification
+- Burp Suite Fundamentals
+
+#### IBM Data Fundamentals
+- Data Literacy
+- Data Analysis Fundamentals
+
+#### Hugging Face Agents Course
+- AI Agents
+- LLM Tool Use
+
+---
+
+### Hack The Box — Offensive Security Labs
+
+Skills developed through hands-on machine-based practice on Hack The Box.  
+Machines rooted: Intentions, Knife, Love, Nocturnal, CozyHosting, Sau, Facts, Shocker, Devel, Legacy, Admirer, Nibbles, Lame, Bounty, Cap, Blue, Editorial, Headless.  
+User-level access achieved: WingData, Pterodactyl.
+
+#### Vulnerability Exploitation
+- SQL Injection (UNION-based, Second-Order)
+- Server-Side Request Forgery (SSRF)
+- Command Injection
+- Remote Code Execution (RCE)
+- SMB Exploitation (EternalBlue / MS17-010, MS08-067, CVE-2007-2447)
+- File Upload Exploitation
+- Insecure Direct Object Reference (IDOR)
+- Cross-Site Scripting (XSS) for Session Theft
+- Shellshock (CVE-2014-6271)
+- PHP Backdoor Exploitation
+- Arbitrary Object Instantiation (ImageTragick)
+- CVE Research & Exploitation
+
+#### Enumeration & Reconnaissance
+- Service Enumeration (Nmap)
+- Web Enumeration (Directory Brute-Forcing, Source Code Analysis)
+- API Enumeration & Exploitation
+- Git Repository Enumeration
+- Spring Boot Actuator Enumeration
+- PCAP Analysis & Credential Extraction
+- User & Service Discovery
+
+#### Privilege Escalation
+- Linux Privilege Escalation (Sudo Abuse / GTFOBins, SUID, Linux Capabilities, Python Library Hijacking, CVE Exploitation)
+- Windows Privilege Escalation (AlwaysInstallElevated, Kernel Exploits, SeImpersonatePrivilege / Juicy Potato)
+- Credential Discovery & Hash Cracking (BCrypt, MD5)
+- Session Hijacking / Cookie Theft
+- Port Forwarding for Internal Service Access
+
+#### Offensive Tooling & Technique
+- Reverse Shell Handling
+- Burp Suite
+- Web Shell Deployment
+- AppLocker Bypass
+- Post-Exploitation Enumeration (WinPEAS, LinPEAS)
+
+#### Supporting Skills Across Labs
+- Offensive Security Methodology
+- Structured Enumeration Workflow
+- Technical Documentation & Note-Taking
+- Analytical Thinking
+- Problem Solving
+- Persistence in Troubleshooting
+
+---
+
+### Hack The Box — Blue Team / Forensics
+
+#### Unit42 Sherlock
+- Threat Intelligence Analysis
+- Log-Based Investigation
+- Indicator of Compromise (IOC) Identification
+
+---
+
+### PortSwigger Web Security Academy
+
+Skills developed through structured web application security labs.  
+Focus areas reflect solved labs across apprentice and practitioner difficulty levels.
+
+#### SQL Injection (10 labs solved)
+- UNION-Based SQL Injection
+- SQL Injection for Authentication Bypass
+- Database Enumeration via SQL Injection (Oracle, MySQL, Microsoft)
+- SQL Injection Column & Data Extraction
+
+#### OS Command Injection (3 labs solved)
+- Command Injection (Direct & Blind)
+- Blind Command Injection with Time Delays
+- Blind Command Injection with Output Redirection
+
+#### Access Control Vulnerabilities (5 labs solved)
+- Broken Access Control Identification
+- Insecure Direct Object Reference (IDOR)
+- Parameter-Based Role Manipulation
+- Horizontal Privilege Escalation
+
+#### Authentication Vulnerabilities (2 labs solved)
+- Username Enumeration (Response Analysis, Timing-Based)
+
+#### API Testing (4 labs solved)
+- API Endpoint Discovery & Exploitation
+- Server-Side Parameter Pollution
+- Mass Assignment Vulnerabilities
+- API Documentation Exploitation
+
+---
+
+### Currently Working On
+- Furthering AI Skills
+- Bug Bounty Hunting — Focusing on IDORs, Business Logic Flaws, and Authorization Bypass
+- PortSwigger Web Security Academy — Expanding into Blind SQLi, XSS, CSRF, SSRF, and Business Logic labs
