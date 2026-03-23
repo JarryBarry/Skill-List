@@ -223,7 +223,7 @@ Self-developed Python tools for efficient reconnaissance and validation during b
 
 ### Currently Working On
 - Bug Bounty Hunting — Focusing on IDORs, Business Logic Flaws, and Authorization Bypass
-- Expanding crAPI practice and documenting additional findings
-- PortSwigger Web Security Academy — Blind SQLi, XSS, CSRF, SSRF, Business Logic, and advanced modules
+- Moving on to VAPI
+- PortSwigger Web Security Academy — IDOR, Auth Bypass Focus
 - Furthering AI Skills (Hugging Face Agents & beyond)
 - Developing additional custom Python tooling for web security testing
