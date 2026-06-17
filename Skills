@@ -1,229 +1,51 @@
-## Skills Portfolio
+Skills Portfolio
+Professional Experience
+QA & Testing: QA, Software Testing, STLC, Test Case Design
 
-My skills are grouped by **professional experience**, **certification-aligned learning**, **hands-on labs**, **bug bounty practice**, and **tool development** to clearly show both structured learning 
-and practical, self-directed application.
+Core Skills: Technical Documentation, Analytical Thinking
 
----
+Certification-Aligned Skills
+CompTIA A+: Technical Support, Troubleshooting (Hardware/Software/OS), Ticket Handling
 
-### Professional Experience
-- Software Testing
-- Software Testing Life Cycle (STLC)
-- Quality Assurance
-- Test Case Design
-- Technical Documentation
-- Analytical Thinking
+CompTIA Network+: Networking, Network Security, Troubleshooting, IP/Subnetting, DNS, OSI, TCP/IP, Ports & Protocols
 
----
+Security & SOC: Cyber Security Fundamentals, Security Awareness, IAM (AuthN/AuthZ), Log Analysis, Alert Triage, Incident Detection/Response, SIEM
 
-### Certification-Aligned Skills
+Web & Pen Testing: Web Security Fundamentals, OWASP Awareness, Reconnaissance, HTTP/HTTPS, Pen Testing Methodology, Burp Suite, Web Testing
 
-#### CompTIA A+ ce
-- Technical Support
-- Troubleshooting
-- Software Troubleshooting
-- Computer Hardware Troubleshooting
-- IT Hardware Support
-- Operating Systems
-- Ticket Handling
-- Problem Solving
+Data & AI: Data Literacy, Data Analysis, AI Agents, LLM Tool Use
 
-#### CompTIA Network+ ce
-- Networking
-- Computer Networking
-- Network Security
-- Network Troubleshooting
-- IP Addressing
-- Subnetting
-- Domain Name System (DNS)
-- Ports and Protocols
-- OSI Model
-- Internet Protocol Suite (TCP/IP)
+Offensive Security Labs (Hack The Box)
+Vulnerability Exploitation: SQLi (UNION, Second-Order), SSRF, Command Injection, RCE, File Upload, IDOR, XSS, Shellshock, PHP Backdoors, SMB Exploitation (EternalBlue, MS08-067)
 
-#### Cyber Security 101
-- Cybersecurity Fundamentals
-- Information Security
-- Security Awareness
-- Identity and Access Basics
-- Authentication & Authorization
+Enumeration & Recon: Service Enumeration (Nmap), Web/API/Git/Spring Boot Actuator Enumeration, PCAP Analysis
 
-#### SOC Level 1
-- Security Monitoring
-- Log Analysis
-- Alert Triage
-- Incident Detection
-- Incident Response Fundamentals
-- SIEM Fundamentals
+Privilege Escalation: Linux (Sudo, SUID, Capabilities, Python Hijacking), Windows (AlwaysInstallElevated, Kernel Exploits, SeImpersonate), Credential Cracking, Port Forwarding
 
-#### Web Fundamentals
-- Web Technologies
-- Web Application Basics
-- Web Security Fundamentals
-- OWASP Awareness
-- Reconnaissance
-- HTTP / HTTPS Protocols
-- JavaScript Fundamentals
-- Web Testing
+Tooling & Workflow: Reverse Shells, Web Shells, AppLocker Bypass, Post-Exploitation (WinPEAS/LinPEAS), Structured Enumeration Workflow
 
-#### Jr Penetration Tester
-- Penetration Testing Methodology
-- Active Reconnaissance
-- Web Application Testing
-- Vulnerability Identification
-- Burp Suite Fundamentals
+Blue Team & Forensics
+Threat Intelligence Analysis, Log-Based Investigation, IOC Identification
 
-#### IBM Data Fundamentals
-- Data Literacy
-- Data Analysis Fundamentals
+PortSwigger Web Security Academy
+SQL Injection: UNION-Based, Auth Bypass, Database Enumeration (Oracle, MySQL, Microsoft)
 
-#### Hugging Face Agents Course
-- AI Agents
-- LLM Tool Use
+OS Command Injection: Direct, Blind (Time Delays & Output Redirection)
 
----
+Access Control & Auth: Broken Access Control, IDOR, Parameter Role Manipulation, Horizontal Privilege Escalation, Username Enumeration
 
-### Hack The Box — Offensive Security Labs
+API Testing: Endpoint Discovery, Server-Side Parameter Pollution, Mass Assignment
 
-Skills developed through 18 fully compromised machines and 2 user-level machines.
+Bug Bounty Practice (OWASP crAPI)
+Vulnerabilities: IDOR, BOLA, JWT Algorithm Confusion ("None" Attack), Info Disclosure
 
-#### Vulnerability Exploitation
-- SQL Injection (UNION-based, Second-Order)
-- Server-Side Request Forgery (SSRF)
-- Command Injection
-- Remote Code Execution (RCE)
-- SMB Exploitation (EternalBlue/MS17-010, MS08-067, CVE-2007-2447)
-- File Upload Exploitation
-- Insecure Direct Object Reference (IDOR)
-- Cross-Site Scripting (XSS) for Session Theft
-- Shellshock (CVE-2014-6271)
-- PHP Backdoor Exploitation
-- Arbitrary Object Instantiation
-- CVE Research & Exploitation
+Techniques: Parameter Tampering, JWT Manipulation, Vulnerability Chaining, UUID Harvesting, Burp Suite Intercept/Replay
 
-#### Enumeration & Reconnaissance
-- Service Enumeration (Nmap)
-- Web Enumeration
-- API Enumeration & Exploitation
-- Git Repository Enumeration
-- Spring Boot Actuator Enumeration
-- PCAP Analysis & Credential Extraction
+Tool Development & Automation
+Python Tools Built:
 
-#### Privilege Escalation
-- Linux Privilege Escalation (Sudo/GTFOBins, SUID, Capabilities, Python Library Hijacking)
-- Windows Privilege Escalation (AlwaysInstallElevated, Kernel Exploits, SeImpersonatePrivilege/Juicy Potato)
-- Credential Discovery & Hash Cracking
-- Session Hijacking
-- Port Forwarding
+API/URL Status Checker: Batch HEAD requests, rate limiting (randomized sleep), status logging.
 
-#### Offensive Tooling & Techniques
-- Reverse Shell Handling
-- Burp Suite
-- Web Shell Deployment
-- AppLocker Bypass
-- Post-Exploitation (WinPEAS / LinPEAS)
+Body Content Validator: Batch GET requests, custom error detection, false-positive 404 filtering.
 
-#### Supporting Skills
-- Offensive Security Methodology
-- Structured Enumeration Workflow
-- Technical Documentation & Note-Taking
-- Analytical Thinking & Problem Solving
-
----
-
-### Hack The Box — Blue Team / Forensics
-- Threat Intelligence Analysis
-- Log-Based Investigation
-- Indicator of Compromise (IOC) Identification
-
----
-
-### PortSwigger Web Security Academy
-
-**Solved Labs (24 total)**
-
-#### SQL Injection (10 solved)
-- UNION-Based SQL Injection
-- SQL Injection for Authentication Bypass
-- Database Enumeration via SQL Injection (Oracle, MySQL, Microsoft)
-
-#### OS Command Injection (3 solved)
-- Direct & Blind Command Injection
-- Blind Command Injection with Time Delays & Output Redirection
-
-#### Access Control Vulnerabilities (5 solved)
-- Broken Access Control
-- Insecure Direct Object Reference (IDOR)
-- Parameter-Based Role Manipulation
-- Horizontal Privilege Escalation
-
-#### Authentication Vulnerabilities (2 solved)
-- Username Enumeration (Response & Timing Analysis)
-
-#### API Testing (4 solved)
-- API Endpoint Discovery & Exploitation
-- Server-Side Parameter Pollution
-- Mass Assignment Vulnerabilities
-
----
-
-### Bug Bounty Practice — OWASP crAPI
-
-Hands-on practice against a realistic vulnerable API application (OWASP crAPI) focused on authorization flaws.
-
-#### Vulnerabilities Identified & Exploited
-- Insecure Direct Object Reference (IDOR)
-- Broken Object Level Authorization (BOLA)
-- JWT Algorithm Confusion ("None" Attack)
-- Information Disclosure → IDOR Chaining
-
-#### Techniques Practiced
-- Sequential ID Enumeration & Manipulation
-- Parameter Tampering (URL parameters & JSON body)
-- JWT Token Manipulation & Signature Removal
-- Vulnerability Chaining (Data Leak → Authorization Bypass)
-- API Endpoint Analysis
-- Burp Suite Intercept & Replay
-
-**Key Patterns Documented**
-- Predictable ID manipulation in URLs and query parameters
-- UUID harvesting from public endpoints then reused in private endpoints
-- Pivoting from blocked IDOR paths to JWT bypasses
-
----
-
-### Custom Tool Development & Automation
-
-Self-developed Python tools for efficient reconnaissance and validation during bug bounty and web testing workflows.
-
-#### Tools Created
-- **API/URL Status Checker** (V2 with timer & randomization)
-  - Batch HTTP HEAD requests
-  - Status code analysis (200-299 success range)
-  - Rate limiting with random sleep delays
-  - Timestamped logging and result filtering
-  - Error handling for connection issues
-
-- **Body Content Validator**
-  - Batch HTTP GET requests
-  - Response body parsing and custom error message detection
-  - Intelligent categorization (Real / Fake / Needs Investigation)
-  - Filtering false-positive 404-style pages that return custom messages
-  - Clean output separation into categorized result files
-
-#### Skills Demonstrated
-- Python Programming & Scripting
-- Automation of Reconnaissance Workflows
-- HTTP Request Handling (`requests` library — HEAD & GET)
-- Response Analysis & Content Parsing
-- Rate Limiting & Anti-Detection Techniques
-- File I/O & Structured Logging
-- Custom Tool Building for Bug Bounty / Web Enumeration
-- Problem Solving through Scripting
-
----
-
-### Currently Working On
-- Bug Bounty Hunting — Focusing on IDORs, Business Logic Flaws, and Authorization Bypass
-- Moving on to VAPI
-- PortSwigger Web Security Academy — IDOR, Auth Bypass Focus
-- Furthering AI Skills (Hugging Face Agents & beyond)
-- Developing additional custom Python tooling for web security testing
+Core Skills: Python Scripting, requests library, HTTP Response Parsing, Automation, File I/O.
