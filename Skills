@@ -77,9 +77,4 @@
 
 ---
 
-## 7. Current Focus
 
-* Bug Bounty Hunting (IDORs, Business Logic Flaws, Authorization Bypass)
-* Vulnerable API Environments (VAPI, PortSwigger Academy modules)
-* AI Engineering (Hugging Face Agents ecosystem)
-* Custom offensive Python tooling development
